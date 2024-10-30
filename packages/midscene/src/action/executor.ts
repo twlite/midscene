@@ -32,8 +32,8 @@ export class Executor {
 
   private markTaskAsPending(task: ExecutionTaskApply): ExecutionTask {
     return {
-      status: 'pending',
       ...task,
+      status: 'pending',
     };
   }
 
